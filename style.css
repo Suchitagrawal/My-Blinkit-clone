@@ -1,0 +1,16 @@
+.vertical-line{
+    border-left: 2px solid #f2f2f2;
+    height: 60px;
+}
+#search-bar{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border: 2px solid #f2f2f2;
+    padding: 10px;
+}
+#search-bar>input{
+    width: 45vw;
+    height: 40px;
+    background-color: transparent;
+
+}
