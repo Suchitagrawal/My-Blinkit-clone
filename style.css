@@ -34,9 +34,9 @@ nav{
     white-space: nowrap;
     overflow-x: scroll;
 }
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     display: none;
-} */
+} 
 .list>img{
     display: inline-block;
     margin: 8px;
@@ -63,6 +63,7 @@ nav{
    white-space: nowrap;
    display: inline-block !important;
    margin-inline: 10px;
+   box-shadow: 10px 10px 5px #faf9f6 inset;
 }
 .shadow{
     margin-top: 30px; 
