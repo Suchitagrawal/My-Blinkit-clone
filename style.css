@@ -91,3 +91,7 @@ nav{
     justify-content: center;
     margin-block: 100px;
 }
+.footer>h4>a{
+    text-decoration: none;
+    color: black;
+}
