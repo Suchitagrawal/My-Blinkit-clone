@@ -20,7 +20,8 @@ nav{
 
 }
 .my-cart-btn{
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 20px;
 }
 #hero-section{
     width: 100vw;
@@ -50,16 +51,22 @@ nav{
     width: 85.5vw;
     margin: auto;
 }
-
+.rupee{
+    position: absolute;
+    bottom: 5px;
+}
 .my-card{
    width: 180px;
+   height: 300px;
    box-sizing: border-box;
    border-radius: 15px !important;
-   white-space: wrap;
+   white-space: nowrap;
    display: inline-block !important;
-   margin-inline: 5px;
+   margin-inline: 10px;
+}
+.shadow{
+    margin-top: 30px; 
 
-   
 }
 .my-cart>img{
     display: inline-block;
@@ -70,8 +77,9 @@ nav{
     color: gray;
 }
 .rupee>p{
-    margin: 0px;
+    margin: auto;
     font-weight: 500;
+    padding-right: 30px;
 }
 .rupee>button{
     border-radius: 10px;
